@@ -1,0 +1,101 @@
+body {
+    background: #333 url("images/grid.png") repeat;
+    margin: 0;
+    padding: 0;
+    font-family: Courier, monospace;
+}
+
+P {
+    margin-top: 4px;
+    margin-bottom: 40px;
+    color: #222;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 40px;
+}
+
+figure {
+    margin: 0 0 0 -81px;
+}
+
+figure a{
+    position: relative;
+    display: inline-block;
+    margin-left: 30px;
+}
+
+figure a:first-child{
+    margin-left: 0;
+}
+
+figure a .scotch{
+    position: absolute;
+    width: 30px;
+    height: 15px;
+    background: #aaaaaa88;
+    transform: rotate(45deg);
+}
+figure a .scotch.scotch-top-left{
+    top: 1px;
+    left: -8px;
+    transform: rotate(132deg);
+}
+
+figure a .scotch.scotch-top-right{
+    top: 1px;
+    right: -8px;
+}
+
+figure a .scotch.scotch-bottom-left{
+    bottom: 8px;
+    left: -8px;
+}
+
+figure a .scotch.scotch-bottom-right{
+    bottom: 8px;
+    right: -8px;
+    transform: rotate(132deg);
+}
+
+#paper {
+    color: #fff;
+    font-size: 20px;
+}
+
+
+#text {
+    position: relative;
+    width: 720px;
+    background-color: #fff;
+    padding: 45px 13px 34px 100px;
+    background-image: url("images/lines.png"),
+    url("images/paper.png");
+    background-repeat: repeat-y, repeat;
+    border-radius: 12px;
+    box-shadow: 0 2px 14px #000;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    box-sizing: border-box;
+}
+
+#me {
+    position : absolute;
+    right: 33px;
+    top: 16px;
+}
+
+#wrapper {
+    width: 700px;
+    height: auto;
+    margin: 24px auto 100px;
+}
+
+.hello{
+    font-size: 30px;
+    line-height: 30px;
+    color: hotpink;
+    font-weight: bold;
+}
+.facts {
+    font-weight: bold ;
+}
